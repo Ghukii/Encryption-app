@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ghukii/Documents/encryption_project/build",
+  "command": "/usr/bin/c++ -Dcyphers_EXPORTS -isystem /home/ghukii/anaconda3/lib/python3.11/site-packages/pybind11/include -isystem /home/ghukii/anaconda3/include/python3.11 -g -fPIC -fvisibility=hidden -std=gnu++11 -o CMakeFiles/cyphers.dir/cyphers.cpp.o -c /home/ghukii/Documents/encryption_project/cyphers.cpp",
+  "file": "/home/ghukii/Documents/encryption_project/cyphers.cpp"
+}
+]
