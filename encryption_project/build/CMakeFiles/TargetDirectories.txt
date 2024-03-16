@@ -1,3 +1,0 @@
-/home/ghukii/Documents/encryption_project/build/CMakeFiles/cyphers.dir
-/home/ghukii/Documents/encryption_project/build/CMakeFiles/edit_cache.dir
-/home/ghukii/Documents/encryption_project/build/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g -shared  -o cyphers.cpython-311-x86_64-linux-gnu.so CMakeFiles/cyphers.dir/cyphers.cpp.o 
