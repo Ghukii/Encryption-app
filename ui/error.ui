@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>error</class>
+ <widget class="QWidget" name="error">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>290</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ERROR</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FFDADA; /* Светло-красный фон */
+border: 2px solid #D8000C; /* Темно-красная граница */
+border-radius: 8px; /* Закругленные углы */</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>171</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #D8000C; /* Цвет текста */
+    font-weight: bold; /* Жирный шрифт */
+    padding: 8px; /* Отступы вокруг текста */</string>
+   </property>
+   <property name="text">
+    <string>Error! Invalid key 
+or empty phrase!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OK">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#errorButton {
+    background-color: #D8000C; /* Красный фон кнопки */
+    color: white; /* Белый текст */
+    border-radius: 4px; /* Закругленные углы кнопки */
+    padding: 5px 10px; /* Отступы */
+    font-weight: bold; /* Жирный шрифт */
+    border: none; /* Убрать стандартную границу */
+}
+
+QPushButton#errorButton:hover {
+    background-color: #FF5B5B; /* Светлее красный при наведении */
+}
+
+QPushButton#errorButton:pressed {
+    background-color: #B20000; /* Темно-красный при нажатии */
+}</string>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

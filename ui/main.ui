@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Encryption_app</class>
+ <widget class="QWidget" name="Encryption_app">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+                                      stop:0 #4facfe, stop:1 #00f2fe);
+</string>
+  </property>
+  <widget class="QPushButton" name="Caesar">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>170</y>
+     <width>441</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #57c9f2;
+    border-radius: 15px; /* Закругленные углы для кнопки */
+    border: 2px solid #47b2e1; /* Граница вокруг кнопки */
+    color: #0; /* Цвет текста на кнопке */
+    padding: 5px 10px; /* Внутренние отступы */
+    font-size: 25px; /* Размер шрифта текста кнопки */
+}
+
+QPushButton:hover {
+    background-color: #47b2e1; /* Цвет кнопки при наведении */
+    color: white; /* Изменение цвета текста при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #3a9dbd; /* Цвет кнопки при нажатии */
+    color: white; /* Изменение цвета текста при нажатии */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Caesar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background-color: transparent; /* Прозрачный фон */
+    color: #0; /* Цвет текста */
+    font-size: 25px; /* Размер шрифта */
+    font-weight: bold; /* Жирное начертание */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>ENCRYPT/DECRYPT YOUR PHRASE!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Transposition">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>460</y>
+     <width>441</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #57c9f2;
+    border-radius: 15px; /* Закругленные углы для кнопки */
+    border: 2px solid #47b2e1; /* Граница вокруг кнопки */
+    color: #0; /* Цвет текста на кнопке */
+    padding: 5px 10px; /* Внутренние отступы */
+    font-size: 25px; /* Размер шрифта текста кнопки */
+}
+
+QPushButton:hover {
+    background-color: #47b2e1; /* Цвет кнопки при наведении */
+    color: white; /* Изменение цвета текста при наведении */
+}
+
+QPushButton:pressed {
+    background-color: #3a9dbd; /* Цвет кнопки при нажатии */
+    color: white; /* Изменение цвета текста при нажатии */
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Transposition</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
